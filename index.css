@@ -1,0 +1,185 @@
+.main-container {
+    width: 900px;
+    height: 873px;
+    top: 48px;
+    left: 120px;
+    gap: 40px;
+}
+
+.nav {
+    width: 1200px;
+    height: 40px;
+    display: flex;
+}
+
+.shoes {
+
+    width: 900px;
+    height: 793px;
+    gap: 20px;
+
+}
+
+.filter {
+    display: flex;
+    flex-direction: row;
+    width: 1200px;
+    height: 29px;
+
+}
+
+.filter-icon {
+    display: flex;
+
+    justify-content: flex-end;
+    width: 900px;
+    height: 30px;
+    margin-top: 20px;
+    margin-left: 100px;
+}
+
+.jimmy {
+    display: flex;
+    justify-content: flex-start;
+    width: 50.42px;
+    height: 25px;
+    padding-top: 20px;
+    left: 7.73px;
+
+}
+
+.text {
+    display: flex;
+    width: 192px;
+    height: 29px;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.search {
+    margin-top: 20px;
+    display: flex;
+    width: 450px;
+    height: 20px;
+    justify-content: flex-end;
+    border-radius: 2px;
+    margin-right: 10px;
+    background: transparent url("/assets/search.svg") no-repeat 13px;
+
+}
+
+.ib {
+    display: flex;
+    height: 22px;
+    margin-top: 18px;
+    margin-left: 10px;
+    justify-content: space-between;
+}
+
+.bar {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: flex-end;
+    width: 786px;
+    height: 40px;
+    gap: 60px;
+}
+
+.listing {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 900px;
+    height: 744px;
+}
+
+.row1 {
+    margin-top: 50px;
+    display: flex;
+    width: 900px;
+    margin-left: 200px;
+}
+
+.i {
+    border-radius: 15px;
+}
+
+.row2 {
+    width: 900px;
+    height: 345px;
+    margin-top: 10px;
+    display: flex;
+    margin-left: 200px;
+}
+
+.img-style {
+    display: flex;
+    width: 300px;
+    padding: 10px;
+    margin-right: 20px;
+    background-color: rgba(18, 17, 17, 0.153);
+    border-radius: 15px;
+    box-shadow: 0 0 5px rgba(7, 7, 7, 0.1);
+    flex-wrap: wrap;
+    margin: 10px;
+    /* ##### Add shadows effect #### */
+    vertical-align: top;
+    /* Align product cards to the top */
+}
+
+.Description {
+    width: 100%;
+
+    border-radius: 5px;
+    background-color: rgb(225, 199, 205);
+
+
+}
+
+/* Styling for the shoe listings */
+
+/* Styling for the product cards */
+.img-style {
+    width: 290px;
+    /* Adjust the width as per your design */
+    padding: 10px;
+    margin-bottom: 20px;
+    background-color: #f9f9f9;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.img-style img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.img-style .Description {
+
+
+    height: fit-content;
+
+
+}
+
+
+
+.img-style p {
+    color: #6d2727df;
+    margin-top: 0;
+    font-size: 18px;
+    float: left;
+    margin-left: 3px;
+
+}
+
+.img-style .price {
+    font-size: 12px;
+    font-weight: bold;
+    color: #200b0b;
+    margin-top: 80px;
+    margin-right: 95px;
+
+}
